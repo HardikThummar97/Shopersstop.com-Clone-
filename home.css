@@ -80,25 +80,23 @@ ul li {
 }
 div.signin {
   position: absolute;
+  right: 0;
+  top: 50px;
   width: 150px;
-  height: 200px;
-  z-index: 10000;
+  z-index: auto;
   float: right;
   border: 1px solid silver;
   display: none;
+  box-shadow: 0 11px 29px -11px #999;
+  border-radius: 2px 2px 10px 10px;
 }
-.h31 a {
-  border-bottom: 1px solid rgb(51, 51, 51);
-  z-index: 10000;
-}
-div.signin > h3 > a {
+div.signin h3 > a {
   margin: 15px;
-  z-index: 10000;
 }
-a.profile-icon:hover ~ div.signin {
+a.profile-icon:hover ~ div.signin,
+div.signin:hover {
   display: block;
   background-color: white;
-  z-index: 10000;
 }
 /* <!-- Header close --> */
 
@@ -111,7 +109,7 @@ nav {
   width: 100%;
   top: 68px;
   background-color: #fff;
-  z-index: 2;
+  z-index: 1;
 }
 .nav-container {
   width: fit-content;
@@ -197,9 +195,6 @@ li.topmenu > a:hover {
 }
 .main-section img {
   max-width: 100%;
-}
-.free-shipping-ad {
-  margin: 0 auto 58px;
 }
 
 /* <!-- section-1 carousel-1 start--> */
