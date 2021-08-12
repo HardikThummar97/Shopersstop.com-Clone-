@@ -66,9 +66,9 @@ strong {
 p {
   margin: 0.75rem 0 0;
 }
-.pm{
-  font-size:20px;
-  font-weight:bold;
+.pm {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 main {
@@ -80,12 +80,11 @@ main {
   width: 960px;
   display: flex;
 }
-label{
+label {
   font-size: 16px;
 }
-input{
+input {
   width: 100%;
-
 }
 
 .basket,
@@ -95,11 +94,9 @@ aside {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   float: left;
-
 }
-.Fields{
+.Fields {
   float: left;
-
 }
 
 .basket {
@@ -114,31 +111,6 @@ label {
   display: block;
   margin-bottom: 0.3125rem;
 }
-
-/* .promo-code-field {
-  border: 1px solid #ccc;
-  padding: 0.5rem;
-  transition: all 0.2s linear;
-  width: 62%;
-  font-size: x-small;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-}
-
-.promo-code-field:hover,
-.promo-code-field:focus {
-  border: 1px solid #999;
-}
-
-.promo-code-cta {
-  color: red;
-  border: red 0.5px solid;
-  padding: 4px;
-  background-color: rgb(246, 226, 226);
-  margin-left: 1px;
-} */
 
 .basket-labels {
   border-top: 1px solid #ccc;
@@ -177,17 +149,12 @@ li.subtotal:before {
   text-align: right;
 }
 
-
-
 .item-heading {
   padding-left: 4.375rem;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-
-
 
 aside {
   float: right;
@@ -196,7 +163,7 @@ aside {
 }
 
 .summary {
-  background-color:rgb(246, 246, 246);
+  background-color: rgb(246, 246, 246);
   padding: 1rem;
   position: fixed;
   width: 250px;
@@ -206,25 +173,22 @@ aside {
 }
 
 .summary-total-items {
-  color:black;
+  color: black;
   font-size: 15px;
   font-weight: bold;
   text-align: center;
-  /* height: max-content; */
 }
 
-#sb{
-  font-size:23px;
+#sb {
+  font-size: 23px;
   font-weight: bold;
 }
-#pc{
+#pc {
   height: 100px;
-  width:100%;
+  width: 100%;
   background-color: rgb(228, 228, 228);
   padding: 20px;
-
 }
-
 
 .summary-subtotal,
 .summary-total {
@@ -246,13 +210,6 @@ aside {
   float: left;
   width: 50%;
 }
-/* 
-.summary-promo {
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-} */
 
 .promo-title {
   float: left;
@@ -293,8 +250,8 @@ aside {
   padding: 0.625rem 0;
   width: 100%;
   font-weight: bolder;
-  font-size:12px;
-  border-radius: 5px;;
+  font-size: 12px;
+  border-radius: 5px;
   background: linear-gradient(to right, #ff5d3b 0, #ff2c65 100%);
 }
 
@@ -307,7 +264,6 @@ aside {
   height: 34px;
   width: 100%;
 }
-
 
 @media screen and (max-width: 640px) {
   aside,

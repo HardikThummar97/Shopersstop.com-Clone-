@@ -25,8 +25,6 @@ ul li {
 }
 
 #signupform {
-  /* border:solid 2px black; */
-
   height: 600px;
   width: 400px;
   position: relative;
@@ -40,7 +38,6 @@ f1 {
 
 #signupimg {
   height: 600px;
-  /* position: absolute; */
   width: 400px;
   float: left;
 }
@@ -53,13 +50,10 @@ f1 {
 .signin2 {
   width: 100%;
   height: 100%;
-  /* position: absolute; */
   top: 0;
   display: none;
   justify-content: center;
   align-items: center;
-  /* font-size: small; */
-  /* line-height: 1cm; */
   font-family: "Source Sans Pro", sans-serif;
   border-radius: 7px;
   z-index: 100;
@@ -75,25 +69,13 @@ f1 {
   padding: 20px;
   position: relative;
   border-radius: 10px;
-  /* border: 2px solid black; */
 }
 a {
   text-decoration: none;
 }
-
-/* .close{
-	position: absolute;
-	top: 0;
-	right: 10px;
-	font-size: 42px;
-	color: rgb(157, 152, 152); 
-	transform: rotate(45deg);
-	cursor: pointer;	
-} */
 .close1,
 .close,
 .close2 {
-  /* position:ralative; */
   position: absolute;
   top: 0;
   right: 10px;
@@ -217,7 +199,6 @@ a {
 #radio {
   width: 98%;
   height: 35px;
-  /* padding:2px; */
   background-color: white;
   border: 1px solid rgb(246, 241, 241);
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -403,7 +384,6 @@ li.topmenu > a:hover {
 .nav-container ul.submenu {
   top: 102%;
   left: 0;
-  /* box-shadow: 0 0 10px black; */
   box-shadow: 0 11px 29px -11px #999;
 }
 .nav-container ul.submenu .submenu {
@@ -423,7 +403,6 @@ li.topmenu > a:hover {
   width: 40%;
   height: 550px;
   float: left;
-  /* border:2px solid red; */
 }
 #c1-slider_1 {
   position: relative;
@@ -432,7 +411,6 @@ li.topmenu > a:hover {
   width: 597px;
   height: 107px;
   float: left;
-  /* border:2px solid red; */
 }
 .slide-container {
   width: 79%;
@@ -445,7 +423,6 @@ li.topmenu > a:hover {
   width: 500%;
   height: 100%;
   display: flex;
-  /* object-fit: cover; */
 }
 .c1-slide {
   width: 20%;
@@ -524,12 +501,10 @@ li.topmenu > a:hover {
 #c1-slider_1 > div > p {
   color: grey;
   font-size: 15px;
-  /* border:1px solid black; */
 }
 
 #c1-slider_1 > div > h3 {
   font-size: 20px;
-  /* border:1px solid gold; */
   float: left;
   margin-top: 3px;
   font-weight: normal;
@@ -565,9 +540,6 @@ body {
   z-index: 1;
   color: #f97d00;
 }
-/* .half > div{
-
-} */
 .half > div:last-child {
   position: relative;
   margin-left: 1px;
@@ -575,7 +547,6 @@ body {
   font-size: 18px;
 }
 .product_rating {
-  /* background-color: hotpink; */
   width: 45%;
   height: 279px;
   margin-left: 637px;
@@ -590,23 +561,19 @@ body {
   text-decoration-line: underline;
 }
 #logo {
-  /* border:1px solid black; */
   width: 45%;
   height: 100px;
   margin-left: 637px;
   padding: 0px;
 }
 #logo > img {
-  /* margin-top: 10px; */
   width: 23px;
   margin: 0px;
-  /* border:1px solid pink; */
   float: left;
 }
 #offer {
   padding: 0px;
   font-weight: bold;
-  /* border:1px solid black; */
   float: left;
   margin-left: 8px;
 }
@@ -614,8 +581,6 @@ body {
   text-decoration: underline;
 }
 #moreOff {
-  /* background-color: bisque; */
-  /* border: 1px solid grey; */
   margin: 4px;
   color: red;
   height: 41px;
@@ -697,7 +662,6 @@ body {
 }
 #det {
   margin: 6px 10px;
-  /* border-right: 1px solid grey; */
   width: 130px;
   height: 32px;
   float: left;
@@ -731,7 +695,6 @@ body {
   margin: 8px 11px;
 }
 #delivery_show {
-  /* border: 1px solid black; */
   margin: 49px 0px;
   display: flex;
   height: 0px;
@@ -781,7 +744,6 @@ body {
   clear: both;
   color: grey;
   margin: 47px 1px;
-  /* border: 1px solid black; */
   width: 118%;
   font-size: small;
 }

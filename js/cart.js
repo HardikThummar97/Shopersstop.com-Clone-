@@ -1,66 +1,3 @@
-//////////////////////////////////////
-
-// let cart = [
-//   {
-//     name: "ETHNIX",
-//     img: "https://sslimages.shoppersstop.com/sys-master/images/hc1/h2b/14584881184798/206601943_9303.jpg_230Wx334H",
-//     detail: "Mens Mao Collar Slub Kurta Chu...",
-//     price_detail: "MRP &#8377",
-//     price: 1996,
-//   },
-//   {
-//     name: "ETHNIX",
-//     img: "https://sslimages.shoppersstop.com/sys-master/images/hd6/hd3/14559405703198/206602126_9612.jpg_230Wx334H",
-//     detail: "Mens 2 Pocket Solid Kurta and Pa...",
-//     price_detail: "MRP &#8377",
-//     price: 2396,
-//   },
-//   {
-//     name: "STOP",
-//     img: "https://sslimages.shoppersstop.com/sys-master/images/hc0/h01/14520727011358/206602138_9100.jpg_1088Wx1632H",
-//     detail: "Mens 2 Pocket Slub Kurta and Pa...",
-//     price_detail: "MRP &#8377",
-//     price: 1516,
-//   },
-//   {
-//     name: "ETHNIX",
-//     img: "https://sslimages.shoppersstop.com/sys-master/images/hb5/h92/15594685464606/A20METHKPS01NV_NAVY.jpg_1088Wx1632H",
-//     detail: "Mens Full Sleeves Kurta Pyjama ...",
-//     price_detail: "MRP &#8377 ",
-//     price: 1699,
-//   },
-//   {
-//     name: "STOP",
-//     img: "https://sslimages.shoppersstop.com/sys-master/images/h54/ha5/14584187912222/206602011_9125.jpg_230Wx334H",
-//     detail: "Mens Mao Collar Slub Kurta Chu...",
-//     price_detail: "MRP &#8377",
-//     price: 2200,
-//   },
-//   {
-//     name: "ETHNIX",
-//     img: "https://sslimages.shoppersstop.com/sys-master/images/h4a/h2e/15595044077598/A20METHKPS03PK_PINK.jpg_230Wx334H",
-//     detail: "Mens 2 Pocket Slub Kurta and Pa...",
-//     price_detail: " MRP &#8377",
-//     price: 1999,
-//   },
-//   {
-//     name: "STOP",
-//     img: "https://sslimages.shoppersstop.com/sys-master/images/hf7/ha7/14559150702622/206602125_9212.jpg_230Wx334H",
-//     detail: "Mens Full Sleeves Kurta Pyjama ...",
-//     price_detail: "MRP &#8377",
-//     price: 2396,
-//   },
-//   {
-//     name: "ETHNIX",
-//     img: "https://sslimages.shoppersstop.com/sys-master/images/h81/h53/15594895245342/A20METHKPS05TL_MID_BLUE.jpg_230Wx334H",
-//     detail: "Mens 2 Pocket Slub Kurta and Pa...",
-//     price_detail: "MRP &#8377",
-//     price: 1999,
-//   },
-// ];
-// localStorage.setItem("cart", JSON.stringify(cart));
-////////////////////////////////////////////////////
-
 function showcart() {
   let cart = JSON.parse(localStorage.getItem("cart"));
   const summary = document.querySelector(".summary-subtotal");
@@ -105,8 +42,6 @@ function openWin() {
 
   window.open("checkout.html");
 }
-
-/////////////////////////////////////////////////
 
 /* Set values + misc */
 var promoCode;

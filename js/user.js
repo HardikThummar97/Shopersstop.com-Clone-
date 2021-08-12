@@ -1,6 +1,5 @@
 document.getElementById("si2").addEventListener("click", function () {
   document.querySelector(".signin2").style.display = "flex";
-  // document.getElementById("contnr").setAttribute("id", "bgcolorblack");
 });
 
 document.querySelector(".close2").addEventListener("click", function () {
@@ -90,16 +89,12 @@ document.getElementById("sinbtn").addEventListener("click", function () {
   let pw = document.getElementById("password2").value;
 
   let user = JSON.parse(localStorage.getItem("person"));
-  // console.log(user);
   var flag = false;
   for (let i = 0; i < user.length; i++) {
     if (
       (user[i].email == em && user[i].password == pw) ||
       (user[i].mobile == em && user[i].password == pw)
     ) {
-      // console.log(user[i].password,user[i].email);
-      // console.log(pw,em);
-
       document.querySelector(".signin2").style.display = "none";
 
       flag = true;
