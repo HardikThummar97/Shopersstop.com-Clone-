@@ -11,11 +11,16 @@ ul li {
   list-style: none;
 }
 /*-------------------------*/
-#bgcolorblack {
-  background-image: linear-gradient(
-    rgba(81, 77, 77, 0.75),
-    rgba(84, 78, 78, 0.75)
-  );
+
+#overlay{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1000%;
+  z-index:10;
+  background-color: rgba(0, 0, 0, 0.65);
 }
 .signup {
   width: 100%;
@@ -29,29 +34,38 @@ ul li {
   font-family: "Source Sans Pro", sans-serif;
   border-radius: 20px;
   cursor: pointer;
+  position: fixed;
 }
 
 #signupform {
-  height: 600px;
+  height: 610px;
   max-height: 610px;
   width: 400px;
   position: relative;
   text-align: center;
   float: left;
   background-color: white;
+  border-top-left-radius:10px;
+  border-bottom-left-radius:10px;
+  box-sizing: border-box;
+  padding: 35px;
+  padding-bottom: 10px;
 }
+
 f1 {
   width: 68%;
 }
 
 #signupimg {
-  height: 600px;
+  height: 610px;
   width: 400px;
   float: left;
 }
 #simg {
   height: 100%;
   width: 100%;
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
 }
 
 .signin,
@@ -67,6 +81,7 @@ f1 {
   z-index: 100;
   position: absolute;
   cursor: pointer;
+  position: fixed;
 }
 
 .signinform,
@@ -143,6 +158,7 @@ a {
   background-color: white;
   border: 1px solid white;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  margin-right:10px;
 }
 .fb-1 img {
   height: 35px;
@@ -188,6 +204,10 @@ a {
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   margin: auto;
 }
+#inputdiv{
+  box-shadow:2px 2px 6px 6px rgba(49, 49, 49, 0.1);
+}
+
 #email2,
 #password2 {
   height: 40px;
@@ -207,23 +227,25 @@ a {
 #password,
 #radio {
   width: 98%;
-  height: 35px;
+  height:45px;
   background-color: white;
   border: 1px solid rgb(246, 241, 241);
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   -moz-border-bottom-colors: none;
   -moz-border-left-colors: none;
   -moz-border-right-colors: none;
   -moz-border-top-colors: none;
 }
+#number{
+  font-size:small;
+}
 #radio {
-  background-color: white;
-  border: 1px solid white;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  width: 98%;
-  height: 32px;
-  padding: 2px;
-  margin-top: 0.5px;
+  padding:10px;
+  box-sizing: border-box;
+  margin-left:3px;
+  text-align: left;
+}
+#male,#female:checked::after{
+  background-color: #ff5d3b;
 }
 /*-------------------------*/
 
